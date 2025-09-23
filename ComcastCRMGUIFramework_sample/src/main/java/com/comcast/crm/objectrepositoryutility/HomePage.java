@@ -15,6 +15,9 @@ WebDriver driver;
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	@FindBy(linkText = "Product")
+	private WebElement productLink;
+	
 	@FindBy(linkText = "Organizations")
 	private WebElement orglink;
 	

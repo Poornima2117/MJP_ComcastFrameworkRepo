@@ -18,6 +18,29 @@ WebDriver driver;
 	@FindBy(linkText = "Product")
 	private WebElement productLink;
 	
+	public WebElement getProductLink() {
+		return productLink;
+	}
+
+	public WebElement getCampaignslink() {
+		return campaignslink;
+	}
+
+	public WebElement getMorelink() {
+		return morelink;
+	}
+
+	public WebElement getAdminImg() {
+		return adminImg;
+	}
+
+	public WebElement getSingOutlink() {
+		return singOutlink;
+	}
+
+	public WebElement getQuickCreateDD() {
+		return QuickCreateDD;
+	}
 	@FindBy(linkText = "Organizations")
 	private WebElement orglink;
 	
